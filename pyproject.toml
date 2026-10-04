@@ -1,0 +1,17 @@
+[project]
+name = "ai-agents-and-harnesses-foundations"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "black>=26.10.0",
+    "isort>=9.0.2",
+    "langchain>=1.4.3",
+    "langchain-core>=1.6.6",
+    "langchain-openai>=1.6.7",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.pylint.messages_control]
+disable = ["missing-module-docstring", "missing-function-docstring"]
